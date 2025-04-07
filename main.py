@@ -1,27 +1,12 @@
-
 import streamlit as st
+from streamlit_homepage import run_homepage
+from multi_tab_launcher import run_ui as run_multi_tab
 
-st.set_page_config(page_title="Modular Assistant OS", layout="wide")
+# Sidebar navigation
+st.sidebar.title("🚀 Modular Assistant OS")
+selection = st.sidebar.radio("Go to", ["🏠 Homepage", "🛠️ Multi-Tab Launcher"])
 
-st.sidebar.title("🔧 Navigation")
-section = st.sidebar.radio("Jump to Section", ["🚀 Launcher", "🧠 DAG Visualizer", "📘 System Info"])
-
-if section == "🚀 Launcher":
-    st.markdown("### Modular Assistant Launcher")
-    st.markdown("Run `streamlit run launcher.py` to launch the full assistant interface.")
-
-elif section == "🧠 DAG Visualizer":
-    st.markdown("### Assistant DAG Visualizer")
-    st.markdown("Run `streamlit run dag_visual_launcher.py` to view DAG nodes by team.")
-    st.json({
-        "DAG File": "merged_dag_teams_abcdefghijk_preview.json",
-        "Total Teams": 11,
-        "Assistants": 100
-    })
-
-elif section == "📘 System Info":
-    st.markdown("""### Assistant System Summary
-- 100 Modular Assistants
-- 10 Specialized Teams + 1 Meta Layer (Team K)
-- DAG-ready, Streamlit-deployable
-""")
+if selection == "🏠 Homepage":
+    run_homepage()
+elif selection == "🛠️ Multi-Tab Launcher":
+    run_multi_tab()
