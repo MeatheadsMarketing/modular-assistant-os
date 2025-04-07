@@ -1,0 +1,94 @@
+{
+  "nodes": [
+    {
+      "id": "B0100",
+      "type": "assistant",
+      "label": "Missing Value Inferrer",
+      "position": {
+        "x": 100,
+        "y": 100
+      }
+    },
+    {
+      "id": "B0101",
+      "type": "assistant",
+      "label": "Column Type Detector",
+      "position": {
+        "x": 350,
+        "y": 100
+      }
+    },
+    {
+      "id": "B0102",
+      "type": "assistant",
+      "label": "Row Quality Scorer",
+      "position": {
+        "x": 600,
+        "y": 100
+      }
+    },
+    {
+      "id": "B0103",
+      "type": "assistant",
+      "label": "Outlier Identifier",
+      "position": {
+        "x": 850,
+        "y": 100
+      }
+    },
+    {
+      "id": "B0104",
+      "type": "assistant",
+      "label": "Schema Validator",
+      "position": {
+        "x": 1100,
+        "y": 100
+      }
+    },
+    {
+      "id": "B0105",
+      "type": "assistant",
+      "label": "Data Merge Planner",
+      "position": {
+        "x": 100,
+        "y": 300
+      }
+    },
+    {
+      "id": "B0106",
+      "type": "assistant",
+      "label": "Duplication Detector",
+      "position": {
+        "x": 350,
+        "y": 300
+      }
+    },
+    {
+      "id": "B0107",
+      "type": "assistant",
+      "label": "Row Cleaner (Rules)",
+      "position": {
+        "x": 600,
+        "y": 300
+      }
+    },
+    {
+      "id": "B0108",
+      "type": "assistant",
+      "label": "Data Profile Generator",
+      "position": {
+        "x": 850,
+        "y": 300
+      }
+    },
+    {
+      "id": "B0109",
+      "type": "assistant",
+      "label": "Assistant Prep Formatter",
+      "position": {
+        "x": 1100,
+        "y": 300
+      }
+    }
+  ]
+}

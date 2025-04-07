@@ -1,0 +1,175 @@
+{
+  "team": "Merged DAG Preview - Teams A\u2013F",
+  "nodes": [
+    {
+      "id": "F0100",
+      "label": "DAG Flow Editor",
+      "description": "Drag-and-drop builder to define assistant pipelines",
+      "category": "Workflow & DAG Builder",
+      "trigger": "UI Canvas",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Custom workflow creation",
+      "file_path": "/mnt/data/TeamF/F0100_dag_flow_editor.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 100,
+        "y": 100
+      }
+    },
+    {
+      "id": "F0101",
+      "label": "Chain Validator",
+      "description": "Checks for cycles and missing nodes in DAGs",
+      "category": "Workflow & DAG Builder",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Robust execution assurance",
+      "file_path": "/mnt/data/TeamF/F0101_chain_validator.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 350,
+        "y": 100
+      }
+    },
+    {
+      "id": "F0102",
+      "label": "Flow Export Formatter",
+      "description": "Formats DAGs into shareable or runnable formats",
+      "category": "Workflow & DAG Builder",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Workflow packaging",
+      "file_path": "/mnt/data/TeamF/F0102_flow_export_formatter.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 600,
+        "y": 100
+      }
+    },
+    {
+      "id": "F0103",
+      "label": "Auto-Chain Suggestor",
+      "description": "Uses GPT to suggest optimal node sequences",
+      "category": "Workflow & DAG Builder",
+      "trigger": "GPT",
+      "gpt_compatible": true,
+      "export_ready": true,
+      "mastery_benefit": "AI workflow optimization",
+      "file_path": "/mnt/data/TeamF/F0103_auto-chain_suggestor.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 850,
+        "y": 100
+      }
+    },
+    {
+      "id": "F0104",
+      "label": "Execution Simulator",
+      "description": "Runs a preview of your DAG flow logic",
+      "category": "Workflow & DAG Builder",
+      "trigger": "Streamlit",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Safe workflow testing",
+      "file_path": "/mnt/data/TeamF/F0104_execution_simulator.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 1100,
+        "y": 100
+      }
+    },
+    {
+      "id": "F0105",
+      "label": "Dynamic Input Router",
+      "description": "Routes outputs from one node to inputs of others",
+      "category": "Workflow & DAG Builder",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Smart flow wiring",
+      "file_path": "/mnt/data/TeamF/F0105_dynamic_input_router.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 100,
+        "y": 300
+      }
+    },
+    {
+      "id": "F0106",
+      "label": "Workflow Scorer (GPT)",
+      "description": "Rates workflows by depth, redundancy, synergy",
+      "category": "Workflow & DAG Builder",
+      "trigger": "GPT",
+      "gpt_compatible": true,
+      "export_ready": true,
+      "mastery_benefit": "Workflow intelligence",
+      "file_path": "/mnt/data/TeamF/F0106_workflow_scorer_gpt.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 350,
+        "y": 300
+      }
+    },
+    {
+      "id": "F0107",
+      "label": "Chain Preview Mapper",
+      "description": "Visualizes a full DAG as modular assistant links",
+      "category": "Workflow & DAG Builder",
+      "trigger": "Canvas",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Structural thinking clarity",
+      "file_path": "/mnt/data/TeamF/F0107_chain_preview_mapper.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 600,
+        "y": 300
+      }
+    },
+    {
+      "id": "F0108",
+      "label": "Flow Repair Assistant",
+      "description": "Finds broken or unlinked paths in your DAG",
+      "category": "Workflow & DAG Builder",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Fix dead-end nodes",
+      "file_path": "/mnt/data/TeamF/F0108_flow_repair_assistant.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 850,
+        "y": 300
+      }
+    },
+    {
+      "id": "F0109",
+      "label": "Workflow Auto-Bundler",
+      "description": "Groups chain into a zip with manifests + UI",
+      "category": "Workflow & DAG Builder",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Ship-ready agent packs",
+      "file_path": "/mnt/data/TeamF/F0109_workflow_auto-bundler.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 1100,
+        "y": 300
+      }
+    }
+  ]
+}

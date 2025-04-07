@@ -1,0 +1,115 @@
+{
+  "team": "Team D - UX Flow & Execution Systems",
+  "assistants": [
+    {
+      "id": "D0100",
+      "name": "Quick Launcher Panel",
+      "description": "Launch assistants from a visual dashboard",
+      "category": "UX Execution",
+      "trigger": "UI Button",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Speed up access",
+      "file": "D0100_quick_launcher_panel.py"
+    },
+    {
+      "id": "D0101",
+      "name": "Assistant Suggestion Engine",
+      "description": "Suggests assistants based on current task",
+      "category": "UX Execution",
+      "trigger": "GPT",
+      "gpt_compatible": true,
+      "export_ready": true,
+      "mastery_benefit": "Smart assistant surfacing",
+      "file": "D0101_assistant_suggestion_engine.py"
+    },
+    {
+      "id": "D0102",
+      "name": "Navigation Trail Tracker",
+      "description": "Shows breadcrumb path across assistant use",
+      "category": "UX Execution",
+      "trigger": "Canvas",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Cognitive continuity",
+      "file": "D0102_navigation_trail_tracker.py"
+    },
+    {
+      "id": "D0103",
+      "name": "Prompt Input Explainer",
+      "description": "Breaks down prompt expectations for users",
+      "category": "UX Execution",
+      "trigger": "GPT",
+      "gpt_compatible": true,
+      "export_ready": true,
+      "mastery_benefit": "Lower user barrier",
+      "file": "D0103_prompt_input_explainer.py"
+    },
+    {
+      "id": "D0104",
+      "name": "Config Wizard",
+      "description": "Walks user through setup steps interactively",
+      "category": "UX Execution",
+      "trigger": "UI Wizard",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Frictionless setup",
+      "file": "D0104_config_wizard.py"
+    },
+    {
+      "id": "D0105",
+      "name": "Usage Analytics Panel",
+      "description": "Displays usage, validation, and status per tool",
+      "category": "UX Execution",
+      "trigger": "Streamlit",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Measure team success",
+      "file": "D0105_usage_analytics_panel.py"
+    },
+    {
+      "id": "D0106",
+      "name": "Theme Switcher",
+      "description": "Changes assistant UI appearance by mode",
+      "category": "UX Execution",
+      "trigger": "UI Toggle",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Mood-aligned UX",
+      "file": "D0106_theme_switcher.py"
+    },
+    {
+      "id": "D0107",
+      "name": "Quick Assistant Finder",
+      "description": "Search bar for assistants by function/tag",
+      "category": "UX Execution",
+      "trigger": "Search UI",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Rapid tool discovery",
+      "file": "D0107_quick_assistant_finder.py"
+    },
+    {
+      "id": "D0108",
+      "name": "Launch Reminder System",
+      "description": "Notifies you to reuse tools not recently touched",
+      "category": "UX Execution",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Habit reinforcement",
+      "file": "D0108_launch_reminder_system.py"
+    },
+    {
+      "id": "D0109",
+      "name": "UI Summary Snapshot",
+      "description": "Shows assistant\u2019s config + function in compact view",
+      "category": "UX Execution",
+      "trigger": "Streamlit",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Operational transparency",
+      "file": "D0109_ui_summary_snapshot.py"
+    }
+  ]
+}

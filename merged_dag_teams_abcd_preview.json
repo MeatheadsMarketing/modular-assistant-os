@@ -1,0 +1,445 @@
+{
+  "team": "Merged DAG Preview - Teams A, B, C, D",
+  "nodes": [
+    {
+      "id": "A0100",
+      "type": "assistant",
+      "label": "Team A Tool 0",
+      "position": {
+        "x": 100,
+        "y": 100
+      }
+    },
+    {
+      "id": "A0101",
+      "type": "assistant",
+      "label": "Team A Tool 1",
+      "position": {
+        "x": 350,
+        "y": 100
+      }
+    },
+    {
+      "id": "A0102",
+      "type": "assistant",
+      "label": "Team A Tool 2",
+      "position": {
+        "x": 600,
+        "y": 100
+      }
+    },
+    {
+      "id": "A0103",
+      "type": "assistant",
+      "label": "Team A Tool 3",
+      "position": {
+        "x": 850,
+        "y": 100
+      }
+    },
+    {
+      "id": "A0104",
+      "type": "assistant",
+      "label": "Team A Tool 4",
+      "position": {
+        "x": 1100,
+        "y": 100
+      }
+    },
+    {
+      "id": "A0105",
+      "type": "assistant",
+      "label": "Team A Tool 5",
+      "position": {
+        "x": 100,
+        "y": 100
+      }
+    },
+    {
+      "id": "A0106",
+      "type": "assistant",
+      "label": "Team A Tool 6",
+      "position": {
+        "x": 350,
+        "y": 100
+      }
+    },
+    {
+      "id": "A0107",
+      "type": "assistant",
+      "label": "Team A Tool 7",
+      "position": {
+        "x": 600,
+        "y": 100
+      }
+    },
+    {
+      "id": "A0108",
+      "type": "assistant",
+      "label": "Team A Tool 8",
+      "position": {
+        "x": 850,
+        "y": 100
+      }
+    },
+    {
+      "id": "A0109",
+      "type": "assistant",
+      "label": "Team A Tool 9",
+      "position": {
+        "x": 1100,
+        "y": 100
+      }
+    },
+    {
+      "id": "B0100",
+      "type": "assistant",
+      "label": "Team B Tool 0",
+      "position": {
+        "x": 100,
+        "y": 300
+      }
+    },
+    {
+      "id": "B0101",
+      "type": "assistant",
+      "label": "Team B Tool 1",
+      "position": {
+        "x": 350,
+        "y": 300
+      }
+    },
+    {
+      "id": "B0102",
+      "type": "assistant",
+      "label": "Team B Tool 2",
+      "position": {
+        "x": 600,
+        "y": 300
+      }
+    },
+    {
+      "id": "B0103",
+      "type": "assistant",
+      "label": "Team B Tool 3",
+      "position": {
+        "x": 850,
+        "y": 300
+      }
+    },
+    {
+      "id": "B0104",
+      "type": "assistant",
+      "label": "Team B Tool 4",
+      "position": {
+        "x": 1100,
+        "y": 300
+      }
+    },
+    {
+      "id": "B0105",
+      "type": "assistant",
+      "label": "Team B Tool 5",
+      "position": {
+        "x": 100,
+        "y": 300
+      }
+    },
+    {
+      "id": "B0106",
+      "type": "assistant",
+      "label": "Team B Tool 6",
+      "position": {
+        "x": 350,
+        "y": 300
+      }
+    },
+    {
+      "id": "B0107",
+      "type": "assistant",
+      "label": "Team B Tool 7",
+      "position": {
+        "x": 600,
+        "y": 300
+      }
+    },
+    {
+      "id": "B0108",
+      "type": "assistant",
+      "label": "Team B Tool 8",
+      "position": {
+        "x": 850,
+        "y": 300
+      }
+    },
+    {
+      "id": "B0109",
+      "type": "assistant",
+      "label": "Team B Tool 9",
+      "position": {
+        "x": 1100,
+        "y": 300
+      }
+    },
+    {
+      "id": "C0100",
+      "type": "assistant",
+      "label": "Prompt Refiner",
+      "position": {
+        "x": 100,
+        "y": 500
+      }
+    },
+    {
+      "id": "C0101",
+      "type": "assistant",
+      "label": "Prompt Pattern Matcher",
+      "position": {
+        "x": 350,
+        "y": 500
+      }
+    },
+    {
+      "id": "C0102",
+      "type": "assistant",
+      "label": "Reason Chain Visualizer",
+      "position": {
+        "x": 600,
+        "y": 500
+      }
+    },
+    {
+      "id": "C0103",
+      "type": "assistant",
+      "label": "GPT Self-Scorer",
+      "position": {
+        "x": 850,
+        "y": 500
+      }
+    },
+    {
+      "id": "C0104",
+      "type": "assistant",
+      "label": "Prompt Stack Rewriter",
+      "position": {
+        "x": 1100,
+        "y": 500
+      }
+    },
+    {
+      "id": "C0105",
+      "type": "assistant",
+      "label": "Assistant Prompt Mapper",
+      "position": {
+        "x": 100,
+        "y": 500
+      }
+    },
+    {
+      "id": "C0106",
+      "type": "assistant",
+      "label": "Counter-Argument Generator",
+      "position": {
+        "x": 350,
+        "y": 500
+      }
+    },
+    {
+      "id": "C0107",
+      "type": "assistant",
+      "label": "Topic-to-Prompt Generator",
+      "position": {
+        "x": 600,
+        "y": 500
+      }
+    },
+    {
+      "id": "C0108",
+      "type": "assistant",
+      "label": "Prompt Library Exporter",
+      "position": {
+        "x": 850,
+        "y": 500
+      }
+    },
+    {
+      "id": "C0109",
+      "type": "assistant",
+      "label": "Self-Correcting Prompt",
+      "position": {
+        "x": 1100,
+        "y": 500
+      }
+    },
+    {
+      "id": "D0100",
+      "label": "Quick Launcher Panel",
+      "description": "Launch assistants from a visual dashboard",
+      "category": "UX Execution",
+      "trigger": "UI Button",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Speed up access",
+      "file_path": "/mnt/data/TeamD/D0100_quick_launcher_panel.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 100,
+        "y": 100
+      }
+    },
+    {
+      "id": "D0101",
+      "label": "Assistant Suggestion Engine",
+      "description": "Suggests assistants based on current task",
+      "category": "UX Execution",
+      "trigger": "GPT",
+      "gpt_compatible": true,
+      "export_ready": true,
+      "mastery_benefit": "Smart assistant surfacing",
+      "file_path": "/mnt/data/TeamD/D0101_assistant_suggestion_engine.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 350,
+        "y": 100
+      }
+    },
+    {
+      "id": "D0102",
+      "label": "Navigation Trail Tracker",
+      "description": "Shows breadcrumb path across assistant use",
+      "category": "UX Execution",
+      "trigger": "Canvas",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Cognitive continuity",
+      "file_path": "/mnt/data/TeamD/D0102_navigation_trail_tracker.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 600,
+        "y": 100
+      }
+    },
+    {
+      "id": "D0103",
+      "label": "Prompt Input Explainer",
+      "description": "Breaks down prompt expectations for users",
+      "category": "UX Execution",
+      "trigger": "GPT",
+      "gpt_compatible": true,
+      "export_ready": true,
+      "mastery_benefit": "Lower user barrier",
+      "file_path": "/mnt/data/TeamD/D0103_prompt_input_explainer.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 850,
+        "y": 100
+      }
+    },
+    {
+      "id": "D0104",
+      "label": "Config Wizard",
+      "description": "Walks user through setup steps interactively",
+      "category": "UX Execution",
+      "trigger": "UI Wizard",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Frictionless setup",
+      "file_path": "/mnt/data/TeamD/D0104_config_wizard.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 1100,
+        "y": 100
+      }
+    },
+    {
+      "id": "D0105",
+      "label": "Usage Analytics Panel",
+      "description": "Displays usage, validation, and status per tool",
+      "category": "UX Execution",
+      "trigger": "Streamlit",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Measure team success",
+      "file_path": "/mnt/data/TeamD/D0105_usage_analytics_panel.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 100,
+        "y": 300
+      }
+    },
+    {
+      "id": "D0106",
+      "label": "Theme Switcher",
+      "description": "Changes assistant UI appearance by mode",
+      "category": "UX Execution",
+      "trigger": "UI Toggle",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Mood-aligned UX",
+      "file_path": "/mnt/data/TeamD/D0106_theme_switcher.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 350,
+        "y": 300
+      }
+    },
+    {
+      "id": "D0107",
+      "label": "Quick Assistant Finder",
+      "description": "Search bar for assistants by function/tag",
+      "category": "UX Execution",
+      "trigger": "Search UI",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Rapid tool discovery",
+      "file_path": "/mnt/data/TeamD/D0107_quick_assistant_finder.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 600,
+        "y": 300
+      }
+    },
+    {
+      "id": "D0108",
+      "label": "Launch Reminder System",
+      "description": "Notifies you to reuse tools not recently touched",
+      "category": "UX Execution",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Habit reinforcement",
+      "file_path": "/mnt/data/TeamD/D0108_launch_reminder_system.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 850,
+        "y": 300
+      }
+    },
+    {
+      "id": "D0109",
+      "label": "UI Summary Snapshot",
+      "description": "Shows assistant\u2019s config + function in compact view",
+      "category": "UX Execution",
+      "trigger": "Streamlit",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Operational transparency",
+      "file_path": "/mnt/data/TeamD/D0109_ui_summary_snapshot.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 1100,
+        "y": 300
+      }
+    }
+  ]
+}

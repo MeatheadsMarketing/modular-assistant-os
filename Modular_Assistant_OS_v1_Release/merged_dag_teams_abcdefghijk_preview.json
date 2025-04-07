@@ -1,0 +1,515 @@
+{
+  "team": "Merged DAG Preview - Teams A\u2013K",
+  "nodes": [
+    {
+      "id": "I0100",
+      "label": "Note Embedder",
+      "description": "Embeds notes or entries using OpenAI/BGE encoder",
+      "category": "Embedding & Semantic Indexing",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Enables semantic comparison",
+      "file_path": "/mnt/data/TeamI/I0100_note_embedder.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 100,
+        "y": 100
+      }
+    },
+    {
+      "id": "I0101",
+      "label": "Similarity Retriever",
+      "description": "Finds top-k most semantically similar items",
+      "category": "Embedding & Semantic Indexing",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Enhances intelligent search",
+      "file_path": "/mnt/data/TeamI/I0101_similarity_retriever.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 350,
+        "y": 100
+      }
+    },
+    {
+      "id": "I0102",
+      "label": "GPT-Aware Index Generator",
+      "description": "Builds a smart index optimized for GPT retrieval",
+      "category": "Embedding & Semantic Indexing",
+      "trigger": "GPT",
+      "gpt_compatible": true,
+      "export_ready": true,
+      "mastery_benefit": "LLM memory structuring",
+      "file_path": "/mnt/data/TeamI/I0102_gpt-aware_index_generator.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 600,
+        "y": 100
+      }
+    },
+    {
+      "id": "I0103",
+      "label": "Vector Store Exporter",
+      "description": "Converts embeddings to FAISS/Pinecone format",
+      "category": "Embedding & Semantic Indexing",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Makes vectors reusable",
+      "file_path": "/mnt/data/TeamI/I0103_vector_store_exporter.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 850,
+        "y": 100
+      }
+    },
+    {
+      "id": "I0104",
+      "label": "Topic Cluster Builder",
+      "description": "Clusters embeddings or notes into topic sets",
+      "category": "Embedding & Semantic Indexing",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "AI-curated topic modeling",
+      "file_path": "/mnt/data/TeamI/I0104_topic_cluster_builder.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 1100,
+        "y": 100
+      }
+    },
+    {
+      "id": "I0105",
+      "label": "Note Group Summarizer",
+      "description": "GPT-summarizes groups of semantically linked notes",
+      "category": "Embedding & Semantic Indexing",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Higher-order abstraction",
+      "file_path": "/mnt/data/TeamI/I0105_note_group_summarizer.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 100,
+        "y": 300
+      }
+    },
+    {
+      "id": "I0106",
+      "label": "Vector Memory Cache (Local)",
+      "description": "Stores embeddings for use across sessions",
+      "category": "Embedding & Semantic Indexing",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Short-term assistant memory",
+      "file_path": "/mnt/data/TeamI/I0106_vector_memory_cache_local.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 350,
+        "y": 300
+      }
+    },
+    {
+      "id": "I0107",
+      "label": "Query-Embedding Comparer",
+      "description": "Compares a query to note embeddings",
+      "category": "Embedding & Semantic Indexing",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Answer similarity ranking",
+      "file_path": "/mnt/data/TeamI/I0107_query-embedding_comparer.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 600,
+        "y": 300
+      }
+    },
+    {
+      "id": "I0108",
+      "label": "Retrieval-Augmented Prompt Builder",
+      "description": "Builds RAG prompts from embedded matches",
+      "category": "Embedding & Semantic Indexing",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "GPT + Search fusion",
+      "file_path": "/mnt/data/TeamI/I0108_retrieval-augmented_prompt_builder.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 850,
+        "y": 300
+      }
+    },
+    {
+      "id": "I0109",
+      "label": "Chain of Meaning Mapper",
+      "description": "Maps relationships between semantically related ideas",
+      "category": "Embedding & Semantic Indexing",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Trace latent knowledge chains",
+      "file_path": "/mnt/data/TeamI/I0109_chain_of_meaning_mapper.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 1100,
+        "y": 300
+      }
+    },
+    {
+      "id": "J0100",
+      "label": "Multi-Agent Chain Designer",
+      "description": "Create role-based agent chains with config UI",
+      "category": "Multi-Agent Coordination",
+      "trigger": "GPT",
+      "gpt_compatible": true,
+      "export_ready": true,
+      "mastery_benefit": "Build modular GPT teams",
+      "file_path": "/mnt/data/TeamJ/J0100_multi-agent_chain_designer.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 100,
+        "y": 100
+      }
+    },
+    {
+      "id": "J0101",
+      "label": "Agent Role Allocator",
+      "description": "Assign assistants as researcher, critic, executor, etc",
+      "category": "Multi-Agent Coordination",
+      "trigger": "GPT",
+      "gpt_compatible": true,
+      "export_ready": true,
+      "mastery_benefit": "Model specialized behavior",
+      "file_path": "/mnt/data/TeamJ/J0101_agent_role_allocator.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 350,
+        "y": 100
+      }
+    },
+    {
+      "id": "J0102",
+      "label": "Memory Passing Router",
+      "description": "Pass structured output from one assistant to another",
+      "category": "Multi-Agent Coordination",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Maintain coherent context",
+      "file_path": "/mnt/data/TeamJ/J0102_memory_passing_router.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 600,
+        "y": 100
+      }
+    },
+    {
+      "id": "J0103",
+      "label": "GPT Chain-of-Thought Splitter",
+      "description": "Breaks a problem into subtasks and assigns them",
+      "category": "Multi-Agent Coordination",
+      "trigger": "GPT",
+      "gpt_compatible": true,
+      "export_ready": true,
+      "mastery_benefit": "Multi-step delegation",
+      "file_path": "/mnt/data/TeamJ/J0103_gpt_chain-of-thought_splitter.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 850,
+        "y": 100
+      }
+    },
+    {
+      "id": "J0104",
+      "label": "Critique + Revise Cycle Agent",
+      "description": "Sends output to reviewer before final output",
+      "category": "Multi-Agent Coordination",
+      "trigger": "GPT",
+      "gpt_compatible": true,
+      "export_ready": true,
+      "mastery_benefit": "Adds quality layer",
+      "file_path": "/mnt/data/TeamJ/J0104_critique_+_revise_cycle_agent.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 1100,
+        "y": 100
+      }
+    },
+    {
+      "id": "J0105",
+      "label": "Agent Roundtable Simulator",
+      "description": "All agents discuss before decision is made",
+      "category": "Multi-Agent Coordination",
+      "trigger": "GPT",
+      "gpt_compatible": true,
+      "export_ready": true,
+      "mastery_benefit": "Simulates team reasoning",
+      "file_path": "/mnt/data/TeamJ/J0105_agent_roundtable_simulator.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 100,
+        "y": 300
+      }
+    },
+    {
+      "id": "J0106",
+      "label": "Assistant Ensemble Scorer",
+      "description": "Scores outputs from multiple assistants on same input",
+      "category": "Multi-Agent Coordination",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Best-of voting mechanism",
+      "file_path": "/mnt/data/TeamJ/J0106_assistant_ensemble_scorer.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 350,
+        "y": 300
+      }
+    },
+    {
+      "id": "J0107",
+      "label": "Role-Switch Agent",
+      "description": "Swaps agent personas mid-convo for perspective shift",
+      "category": "Multi-Agent Coordination",
+      "trigger": "GPT",
+      "gpt_compatible": true,
+      "export_ready": true,
+      "mastery_benefit": "Boosts creative exploration",
+      "file_path": "/mnt/data/TeamJ/J0107_role-switch_agent.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 600,
+        "y": 300
+      }
+    },
+    {
+      "id": "J0108",
+      "label": "Multi-Agent Prompt Combiner",
+      "description": "Merges insights from multiple agents into one prompt",
+      "category": "Multi-Agent Coordination",
+      "trigger": "GPT",
+      "gpt_compatible": true,
+      "export_ready": true,
+      "mastery_benefit": "Maximize synthesis",
+      "file_path": "/mnt/data/TeamJ/J0108_multi-agent_prompt_combiner.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 850,
+        "y": 300
+      }
+    },
+    {
+      "id": "J0109",
+      "label": "Chain Exporter (Runnable DAG)",
+      "description": "Exports multi-agent logic to JSON for reuse",
+      "category": "Multi-Agent Coordination",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Deployable AI workflows",
+      "file_path": "/mnt/data/TeamJ/J0109_chain_exporter_runnable_dag.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 1100,
+        "y": 300
+      }
+    },
+    {
+      "id": "K0100",
+      "label": "Assistant Usage Tracker",
+      "description": "Logs how often and how successfully each assistant is used",
+      "category": "System Feedback & Meta-AI",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Prioritize high-value tools",
+      "file_path": "/mnt/data/TeamK/K0100_assistant_usage_tracker.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 100,
+        "y": 100
+      }
+    },
+    {
+      "id": "K0101",
+      "label": "Flow Performance Scorer",
+      "description": "Evaluates DAG runs by speed, accuracy, or satisfaction",
+      "category": "System Feedback & Meta-AI",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Track your workflows",
+      "file_path": "/mnt/data/TeamK/K0101_flow_performance_scorer.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 350,
+        "y": 100
+      }
+    },
+    {
+      "id": "K0102",
+      "label": "GPT Debug Trace Analyzer",
+      "description": "Analyzes GPT missteps, hallucinations, or logic gaps",
+      "category": "System Feedback & Meta-AI",
+      "trigger": "GPT",
+      "gpt_compatible": true,
+      "export_ready": true,
+      "mastery_benefit": "Fix AI issues before they spread",
+      "file_path": "/mnt/data/TeamK/K0102_gpt_debug_trace_analyzer.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 600,
+        "y": 100
+      }
+    },
+    {
+      "id": "K0103",
+      "label": "Feedback Loop Injector",
+      "description": "Adds user/system feedback to agent memory",
+      "category": "System Feedback & Meta-AI",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Build evolving logic",
+      "file_path": "/mnt/data/TeamK/K0103_feedback_loop_injector.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 850,
+        "y": 100
+      }
+    },
+    {
+      "id": "K0104",
+      "label": "System Optimizer (Auto-Tuner)",
+      "description": "Suggests tool swaps, skips, or chaining improvements",
+      "category": "System Feedback & Meta-AI",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Self-tunes the pipeline",
+      "file_path": "/mnt/data/TeamK/K0104_system_optimizer_auto-tuner.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 1100,
+        "y": 100
+      }
+    },
+    {
+      "id": "K0105",
+      "label": "GPT Self-Improvement Tracker",
+      "description": "Logs when a prompt/tool was revised + why",
+      "category": "System Feedback & Meta-AI",
+      "trigger": "GPT",
+      "gpt_compatible": true,
+      "export_ready": true,
+      "mastery_benefit": "See evolution patterns",
+      "file_path": "/mnt/data/TeamK/K0105_gpt_self-improvement_tracker.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 100,
+        "y": 300
+      }
+    },
+    {
+      "id": "K0106",
+      "label": "Meta-Dashboard Generator",
+      "description": "Creates dashboards of system health, score, usage",
+      "category": "System Feedback & Meta-AI",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Visualize overall intelligence",
+      "file_path": "/mnt/data/TeamK/K0106_meta-dashboard_generator.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 350,
+        "y": 300
+      }
+    },
+    {
+      "id": "K0107",
+      "label": "Agent Redundancy Detector",
+      "description": "Finds overlapping tools doing similar tasks",
+      "category": "System Feedback & Meta-AI",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Clean up duplication",
+      "file_path": "/mnt/data/TeamK/K0107_agent_redundancy_detector.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 600,
+        "y": 300
+      }
+    },
+    {
+      "id": "K0108",
+      "label": "Runtime Bottleneck Analyzer",
+      "description": "Measures assistant slow points and load",
+      "category": "System Feedback & Meta-AI",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Optimize performance",
+      "file_path": "/mnt/data/TeamK/K0108_runtime_bottleneck_analyzer.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 850,
+        "y": 300
+      }
+    },
+    {
+      "id": "K0109",
+      "label": "Upgrade Recommender (AI-to-AI)",
+      "description": "GPT recommends updated logic, prompt, or tool replacement",
+      "category": "System Feedback & Meta-AI",
+      "trigger": "GPT",
+      "gpt_compatible": true,
+      "export_ready": true,
+      "mastery_benefit": "Self-evolving agent network",
+      "file_path": "/mnt/data/TeamK/K0109_upgrade_recommender_ai-to-ai.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 1100,
+        "y": 300
+      }
+    }
+  ]
+}

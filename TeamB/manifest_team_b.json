@@ -1,0 +1,115 @@
+{
+  "team": "Team B - Data-Centric Pipelines",
+  "assistants": [
+    {
+      "id": "B0100",
+      "name": "Missing Value Inferrer",
+      "description": "Fills in missing cells using contextual logic or GPT",
+      "category": "Data Pipelines",
+      "trigger": "GPT",
+      "gpt_compatible": true,
+      "export_ready": true,
+      "mastery_benefit": "Fix incomplete datasets",
+      "file": "B0100_missing_value_inferrer.py"
+    },
+    {
+      "id": "B0101",
+      "name": "Column Type Detector",
+      "description": "Detects column data types in any table",
+      "category": "Data Pipelines",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Enhance schema accuracy",
+      "file": "B0101_column_type_detector.py"
+    },
+    {
+      "id": "B0102",
+      "name": "Row Quality Scorer",
+      "description": "Scores each row based on completeness & correctness",
+      "category": "Data Pipelines",
+      "trigger": "GPT",
+      "gpt_compatible": true,
+      "export_ready": true,
+      "mastery_benefit": "Flag bad rows early",
+      "file": "B0102_row_quality_scorer.py"
+    },
+    {
+      "id": "B0103",
+      "name": "Outlier Identifier",
+      "description": "Detects statistical and logical outliers",
+      "category": "Data Pipelines",
+      "trigger": "Dataview",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Remove noisy data",
+      "file": "B0103_outlier_identifier.py"
+    },
+    {
+      "id": "B0104",
+      "name": "Schema Validator",
+      "description": "Checks if data matches expected schema",
+      "category": "Data Pipelines",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Ensure input conformity",
+      "file": "B0104_schema_validator.py"
+    },
+    {
+      "id": "B0105",
+      "name": "Data Merge Planner",
+      "description": "Prepares logic to merge similar datasets",
+      "category": "Data Pipelines",
+      "trigger": "GPT",
+      "gpt_compatible": true,
+      "export_ready": true,
+      "mastery_benefit": "Combine data cleanly",
+      "file": "B0105_data_merge_planner.py"
+    },
+    {
+      "id": "B0106",
+      "name": "Duplication Detector",
+      "description": "Flags duplicate or near-duplicate entries",
+      "category": "Data Pipelines",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Reduce redundancy",
+      "file": "B0106_duplication_detector.py"
+    },
+    {
+      "id": "B0107",
+      "name": "Row Cleaner (Rules)",
+      "description": "Applies rules to clean row-level issues",
+      "category": "Data Pipelines",
+      "trigger": "Templater",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Automate row cleanup",
+      "file": "B0107_row_cleaner_rules.py"
+    },
+    {
+      "id": "B0108",
+      "name": "Data Profile Generator",
+      "description": "Summarizes key stats of a dataset",
+      "category": "Data Pipelines",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Quick data overview",
+      "file": "B0108_data_profile_generator.py"
+    },
+    {
+      "id": "B0109",
+      "name": "Assistant Prep Formatter",
+      "description": "Formats data for GPT-ready assistant ingestion",
+      "category": "Data Pipelines",
+      "trigger": "GPT",
+      "gpt_compatible": true,
+      "export_ready": true,
+      "mastery_benefit": "Bridge to AI pipelines",
+      "file": "B0109_assistant_prep_formatter.py"
+    }
+  ]
+}

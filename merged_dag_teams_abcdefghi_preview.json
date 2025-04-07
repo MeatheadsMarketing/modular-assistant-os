@@ -1,0 +1,175 @@
+{
+  "team": "Merged DAG Preview - Teams A\u2013I",
+  "nodes": [
+    {
+      "id": "I0100",
+      "label": "Note Embedder",
+      "description": "Embeds notes or entries using OpenAI/BGE encoder",
+      "category": "Embedding & Semantic Indexing",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Enables semantic comparison",
+      "file_path": "/mnt/data/TeamI/I0100_note_embedder.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 100,
+        "y": 100
+      }
+    },
+    {
+      "id": "I0101",
+      "label": "Similarity Retriever",
+      "description": "Finds top-k most semantically similar items",
+      "category": "Embedding & Semantic Indexing",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Enhances intelligent search",
+      "file_path": "/mnt/data/TeamI/I0101_similarity_retriever.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 350,
+        "y": 100
+      }
+    },
+    {
+      "id": "I0102",
+      "label": "GPT-Aware Index Generator",
+      "description": "Builds a smart index optimized for GPT retrieval",
+      "category": "Embedding & Semantic Indexing",
+      "trigger": "GPT",
+      "gpt_compatible": true,
+      "export_ready": true,
+      "mastery_benefit": "LLM memory structuring",
+      "file_path": "/mnt/data/TeamI/I0102_gpt-aware_index_generator.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 600,
+        "y": 100
+      }
+    },
+    {
+      "id": "I0103",
+      "label": "Vector Store Exporter",
+      "description": "Converts embeddings to FAISS/Pinecone format",
+      "category": "Embedding & Semantic Indexing",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Makes vectors reusable",
+      "file_path": "/mnt/data/TeamI/I0103_vector_store_exporter.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 850,
+        "y": 100
+      }
+    },
+    {
+      "id": "I0104",
+      "label": "Topic Cluster Builder",
+      "description": "Clusters embeddings or notes into topic sets",
+      "category": "Embedding & Semantic Indexing",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "AI-curated topic modeling",
+      "file_path": "/mnt/data/TeamI/I0104_topic_cluster_builder.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 1100,
+        "y": 100
+      }
+    },
+    {
+      "id": "I0105",
+      "label": "Note Group Summarizer",
+      "description": "GPT-summarizes groups of semantically linked notes",
+      "category": "Embedding & Semantic Indexing",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Higher-order abstraction",
+      "file_path": "/mnt/data/TeamI/I0105_note_group_summarizer.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 100,
+        "y": 300
+      }
+    },
+    {
+      "id": "I0106",
+      "label": "Vector Memory Cache (Local)",
+      "description": "Stores embeddings for use across sessions",
+      "category": "Embedding & Semantic Indexing",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Short-term assistant memory",
+      "file_path": "/mnt/data/TeamI/I0106_vector_memory_cache_local.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 350,
+        "y": 300
+      }
+    },
+    {
+      "id": "I0107",
+      "label": "Query-Embedding Comparer",
+      "description": "Compares a query to note embeddings",
+      "category": "Embedding & Semantic Indexing",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Answer similarity ranking",
+      "file_path": "/mnt/data/TeamI/I0107_query-embedding_comparer.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 600,
+        "y": 300
+      }
+    },
+    {
+      "id": "I0108",
+      "label": "Retrieval-Augmented Prompt Builder",
+      "description": "Builds RAG prompts from embedded matches",
+      "category": "Embedding & Semantic Indexing",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "GPT + Search fusion",
+      "file_path": "/mnt/data/TeamI/I0108_retrieval-augmented_prompt_builder.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 850,
+        "y": 300
+      }
+    },
+    {
+      "id": "I0109",
+      "label": "Chain of Meaning Mapper",
+      "description": "Maps relationships between semantically related ideas",
+      "category": "Embedding & Semantic Indexing",
+      "trigger": "Script",
+      "gpt_compatible": false,
+      "export_ready": true,
+      "mastery_benefit": "Trace latent knowledge chains",
+      "file_path": "/mnt/data/TeamI/I0109_chain_of_meaning_mapper.py",
+      "inputs": [],
+      "outputs": [],
+      "position": {
+        "x": 1100,
+        "y": 300
+      }
+    }
+  ]
+}
